@@ -168,7 +168,6 @@ def countRatios(first, second):
 
 @app.route("/bot", methods=["POST"])
 def response():
-    ratios = []
     
     try:
       ss = dict(request.form)['s1']

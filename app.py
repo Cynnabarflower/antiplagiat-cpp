@@ -112,6 +112,7 @@ all_ids = dict()
 ids = []
 unique_ids = []
 count = 0
+ratios = []
 
 def foo2(s, unique_ids = True):
     i = len(all_ids)

@@ -170,7 +170,7 @@ def countRatios(first, second):
 def response():
     
     try:
-      print(request.form)
+      print(dict(request.form))
       ss = dict(request.form)['s1']
       ss1 = dict(request.form)['s2']
 

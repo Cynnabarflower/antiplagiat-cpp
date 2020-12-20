@@ -172,7 +172,12 @@ def response():
     try:
       ss = dict(request.form)['s1']
       ss1 = dict(request.form)['s2']
-
+      
+      print('\n\n\n\n')
+      print(ss)
+      print('\n\n')
+      print(ss1)
+      print('\n\n\n\n')
 
       ss = foo1(ss)
       ss1 = foo1(ss1)

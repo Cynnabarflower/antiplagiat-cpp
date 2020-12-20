@@ -191,8 +191,8 @@ def response():
 
       print(ratios)
       print(max(ratios))
-    except Exception:
-        print('ooops')
+    except Exception as e:
+        print(str(e))
     return str(ratios)
     
 if __name__ == "__main__":
